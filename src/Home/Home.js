@@ -1,4 +1,7 @@
 import './Home.css'
+
+import { Footer } from '../shared/Footer/Footer'
+
 export function Home(){
 
     return(
@@ -12,11 +15,16 @@ export function Home(){
                 <div class="container my-5">
                     <div class="row">
                         <div class="col-12 col-md-8">
-                            <h2>INCUBUS</h2>
+                            <h2>ACRU</h2>
                             <p>
-                                Incubus es una banda de rock alternativo estadounidense formado por el vocalista Brandon Boyd, guitarrista Mike Einziger y batería José Pasillas cuando estudiaban juntos y después expandieron con la inclusión del bajista Alex "Dirk Lance" Katunich y Gavin "DJ Lyfe" Koppell; ambos reemplazados finalmente por Ben Kenney y DJ Kilmore respectivamente. Para el 2001 tuvieron un enorme éxito con el sencillo "Drive", seguido de su álbum Morning View. En 2003, la banda establece la fundación "Make Yourself Foundation" para donar dinero a fundaciones de beneficencia
+                            Agustín Cruz nació el 4 de junio de 1997 en Tucumán, Argentina. En su infancia descubrió gracias a su padre, Víctor Cruz, la escritura y el manejo de la palabra, pues este era escritor. También le enseñó diferentes géneros musicales (rock, cumbia, folclore, etc.) que influenciaron su carrera musical.3​
+
+                            A los 3 años de edad se mudó con sus padres a Buenos Aires. Con 11 años, luego de volver a Tucumán, empezó a estudiar en la Escuela Polivalente de Arte, una escuela pública donde descubrió la cultura hip hop. Agustín quería ser ilustrador, pero vio a compañeros de su escuela rapeando en los recreos y decidió conocer más sobre el hip hop.
+
+                            Practicó las disciplinas del beatboxing y el grafiti, además de rapear. En 2014 asistió a una de sus primeras batallas en El Quinto Escalón. Ese mismo año publica un tema en YouTube titulado “Viejita Mía!”, dedicado a su madre.
+                            Acru es uno de los raperos más admirados y respetados tanto por los seguidores del rap como por sus colegas. Gracias a su aporte a la cultura, tanto de manera individual como en colaboración con reconocidas figuras del género urbano, se transformó en el embajador del rap argento.
                             </p>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/21753018_10155226596903999_29998736812000224_o.jpg?alt=media&token=335e9325-5a9f-4fe9-ba57-0a2333222108" class="img-fluid w-100"></img>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/cinemajuanguillermocuartas.appspot.com/o/Acru.jpg?alt=media&token=a3ebaaac-72d5-411c-a03c-bbcee9015844" class="img-fluid w-100"></img>
                         </div>
 
                         <div class="col-12 col-md-4 border-start align-self-center bg-dark text-white p-5">
@@ -76,17 +84,20 @@ export function Home(){
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-md-4">
-                           <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia1.jpg?alt=media&token=9e1fb4de-d6ea-468f-bc92-90f40ab7be62" alt="" class="img-fluid w-100"/>
+                           <img src="https://firebasestorage.googleapis.com/v0/b/cinemajuanguillermocuartas.appspot.com/o/acru_0.jpg?alt=media&token=1d8c0755-0658-4dbd-8708-2642ea9bdbe2" alt="" class="img-fluid w-100"/>
                         </div>
                         <div class="col-12 col-md-4">
-                           <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia2.webp?alt=media&token=83bf541c-e9eb-4d28-96ed-3211e7f51207" alt="" class="img-fluid w-100"/>
+                           <img src="https://firebasestorage.googleapis.com/v0/b/cinemajuanguillermocuartas.appspot.com/o/acruConcierto.jpg?alt=media&token=90dcef42-6760-48bf-8d80-066778def5b4" alt="" class="img-fluid w-100"/>
                         </div>
                         <div class="col-12 col-md-4">
-                           <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia3.jpg?alt=media&token=8dedd25e-e9cc-41aa-a025-06805502a575" alt="" class="img-fluid w-100"/>
+                           <img src="https://firebasestorage.googleapis.com/v0/b/cinemajuanguillermocuartas.appspot.com/o/acru-banner-2.webp?alt=media&token=0859f8ae-d938-48ac-ac2c-9749621c38a9" alt="" class="img-fluid w-100"/>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <Footer/>
+            
         </>
     )
 
